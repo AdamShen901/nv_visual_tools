@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
-default_folder_path = r'\\nas\share\交易组共享文件\Strategy'
+default_folder_path = r'\source'
 
 
 def visualize_backtest_results(folder_path, chart_height=6, mdd_alpha=0.3):
@@ -487,4 +487,5 @@ def main():
 
 # 主程序入口
 if __name__ == "__main__":
+
     main()
